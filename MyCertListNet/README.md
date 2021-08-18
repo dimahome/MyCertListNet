@@ -1,5 +1,7 @@
-﻿# MyCertList
+# MyCertListNet
 Console list Certificates
+
+************************************************************
 
 MyCertLis.exe /?
 
@@ -17,9 +19,11 @@ MyCertLis.exe [/I[:FIELDS]] [/S[:FIELDS]] [/A] [/B] [/L]
             Running without key prints the maximum available information to the console.
             
 
+************************************************************
 Example:
 ------------------------------------------------------------
 MyCertLis.exe /I /B 
+
 Issuer: CN="Issuer name", O="Issuer secon name", OU=Certikicate center, STREET="221B Baker Street", E=test@test.ru
 NotBefore: 15.04.2021 10:04:07
 Issuer: CN=DOMEN\dmitriy
@@ -32,6 +36,7 @@ Issuer: CN="Issuer name", E=test@test.ru
 
 Issuer: CN=DOMEN\dmitriy
 
+************************************************************
 PS/
 It was conceived for two tasks:
 1. Collecting information about all installed personal certificates in the domain network;
