@@ -41,5 +41,7 @@ PS/
 It was conceived for two tasks:
 1. Collecting information about all installed personal certificates in the domain network;
 2. Control of expiration dates of personal electronic digital signatures by means of zabbix sender.
+3. You can get analog data with a simple query in PowerShell:
+"Get-ChildItem -Path cert:CurrentUser/My"
 
 
