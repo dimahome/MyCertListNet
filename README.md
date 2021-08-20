@@ -24,7 +24,7 @@ Example:
 ------------------------------------------------------------
 MyCertLis.exe /I /B 
 
-Issuer: CN="Issuer name", O="Issuer secon name", OU=Certikicate center, STREET="221B Baker Street", E=test@test.ru
+Issuer: CN="Issuer name", O="Issuer secon name", OU=Certikicate center, STREET="221B Baker Street", E=test.ru
 NotBefore: 15.04.2021 10:04:07
 Issuer: CN=DOMEN\dmitriy
 NotBefore: 11.05.2021 17:26:40
@@ -32,7 +32,7 @@ NotBefore: 11.05.2021 17:26:40
 ------------------------------------------------------------
 MyCertLis.exe /I:CN,E /P
 
-Issuer: CN="Issuer name", E=test@test.ru
+Issuer: CN="Issuer name", E=test.ru
 
 Issuer: CN=DOMEN\dmitriy
 
